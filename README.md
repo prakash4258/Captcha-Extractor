@@ -47,7 +47,7 @@ python captcha_solver.py
 **Output:**
 
 ```
-Extracted Text: 86218
+Extracted Text: 22689
 ```
 
 ## Project Structure
@@ -70,3 +70,4 @@ MIT License
 
 Do you also want me to include a **section in the README for GitHub hosting instructions** so people know how to clone and run it? That would make it easier for others to use.
 ```
+
