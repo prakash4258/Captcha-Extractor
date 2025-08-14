@@ -39,7 +39,7 @@ reader = easyocr.Reader(['en'], gpu=gpu_ok)
 WHITELIST = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
 # small confusion map to correct visually-similar misreads; tune as needed
 CONFUSION_MAP = {
-    "A": "4", "a": "4",
+   # "A": "4", "a": "4",
     "O": "0", "o": "0",
     "I": "1", "l": "1", "i": "1",
     "Z": "2", "S": "5", "B": "8",
@@ -355,3 +355,4 @@ if __name__ == "__main__":
     print("Processing:", IMAGE_PATH)
     out = solve(IMAGE_PATH)
     print("Done.")
+
